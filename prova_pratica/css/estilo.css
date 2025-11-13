@@ -1,6 +1,6 @@
 body {
     background-color: indigo;
-    background-image: url('goku.png');
+    background-image: url('../midia/goku.png');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: right top;
@@ -14,5 +14,31 @@ h1 {
     border: gold solid;
     border-radius: 10px;
     border-style: dotted;
-    background-color: darkorchid;
+    background-color: darkmagenta;
+}
+
+
+body fieldset {
+    color: white;
+    border-color: gold;
+    border-style: solid 20%;
+    background-size: 30%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+}
+
+legend {
+    color: white;
+}
+
+button {
+    background-color: darkmagenta;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+}
+
+#d {
+    border-radius: 50px;
 }
